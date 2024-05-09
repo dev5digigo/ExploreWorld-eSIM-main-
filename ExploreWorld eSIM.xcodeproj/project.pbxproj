@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061E4567226E23A49E96BA75 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E391C897494CFEFFAF4D7FA5 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */; };
+		4BA8E53744059C6F7480CA6F /* Pods_ExploreWorld_eSIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DB2D388F990FB72168CF8 /* Pods_ExploreWorld_eSIM.framework */; };
+		A2C5B1FD44A503BA754071E1 /* Pods_ExploreWorld_eSIMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F4AF9DC3C9456FA6E0BBFC /* Pods_ExploreWorld_eSIMTests.framework */; };
+		BD01A55B2BE428F10045DE4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A55A2BE428F10045DE4E /* AppDelegate.swift */; };
+		BD01A55D2BE428F10045DE4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A55C2BE428F10045DE4E /* SceneDelegate.swift */; };
+		BD01A5622BE428F10045DE4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD01A5602BE428F10045DE4E /* Main.storyboard */; };
+		BD01A5642BE428F30045DE4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD01A5632BE428F30045DE4E /* Assets.xcassets */; };
+		BD01A5672BE428F30045DE4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD01A5652BE428F30045DE4E /* LaunchScreen.storyboard */; };
+		BD01A5722BE428F30045DE4E /* ExploreWorld_eSIMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A5712BE428F30045DE4E /* ExploreWorld_eSIMTests.swift */; };
+		BD01A57C2BE428F30045DE4E /* ExploreWorld_eSIMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A57B2BE428F30045DE4E /* ExploreWorld_eSIMUITests.swift */; };
+		BD01A57E2BE428F30045DE4E /* ExploreWorld_eSIMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A57D2BE428F30045DE4E /* ExploreWorld_eSIMUITestsLaunchTests.swift */; };
+		BD01A58E2BE429A00045DE4E /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A58D2BE429A00045DE4E /* LoginVc.swift */; };
+		BD01A5902BE430900045DE4E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A58F2BE430900045DE4E /* Helper.swift */; };
+		BD156DFF2BEB47B900D81F6E /* NotificationResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD156DFE2BEB47B900D81F6E /* NotificationResponseModel.swift */; };
+		BD156E012BEB4E9700D81F6E /* GetPaymentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD156E002BEB4E9700D81F6E /* GetPaymentDataModel.swift */; };
+		BD156E032BEB4F5700D81F6E /* GetApiVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD156E022BEB4F5700D81F6E /* GetApiVc.swift */; };
+		BD7210132BE5B62100F240A3 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7210122BE5B62100F240A3 /* MainCell.swift */; };
+		BD7210152BE5B64800F240A3 /* CountryVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7210142BE5B64800F240A3 /* CountryVc.swift */; };
+		BD73DC912BE6DBDA00D5713E /* PopCountryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD73DC902BE6DBDA00D5713E /* PopCountryCollectionCell.swift */; };
+		BD73DC952BE6F84700D5713E /* CountryDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD73DC942BE6F84700D5713E /* CountryDetailVc.swift */; };
+		BD9726B12BE555990022C3FE /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9726B02BE555990022C3FE /* SignUpVc.swift */; };
+		BDB84FAD2BEA45D900E512BA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB84FAC2BEA45D900E512BA /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD01A56E2BE428F30045DE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD01A54F2BE428F10045DE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD01A5562BE428F10045DE4E;
+			remoteInfo = "ExploreWorld eSIM";
+		};
+		BD01A5782BE428F30045DE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD01A54F2BE428F10045DE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD01A5562BE428F10045DE4E;
+			remoteInfo = "ExploreWorld eSIM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001696048E68DE992AB496B9 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07A2F98C3DF99436D2A3EF14 /* Pods-ExploreWorld eSIMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIMTests.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests.release.xcconfig"; sourceTree = "<group>"; };
+		0CEDB9A79D80C0A95BA2F7DF /* Pods-ExploreWorld eSIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM.release.xcconfig"; sourceTree = "<group>"; };
+		4F1DB2D388F990FB72168CF8 /* Pods_ExploreWorld_eSIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF91605FEBCD81318457501 /* Pods-ExploreWorld eSIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM.debug.xcconfig"; sourceTree = "<group>"; };
+		BD01A5572BE428F10045DE4E /* ExploreWorld eSIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExploreWorld eSIM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD01A55A2BE428F10045DE4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD01A55C2BE428F10045DE4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD01A5612BE428F10045DE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD01A5632BE428F30045DE4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD01A5662BE428F30045DE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD01A5682BE428F30045DE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD01A56D2BE428F30045DE4E /* ExploreWorld eSIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExploreWorld eSIMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD01A5712BE428F30045DE4E /* ExploreWorld_eSIMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreWorld_eSIMTests.swift; sourceTree = "<group>"; };
+		BD01A5772BE428F30045DE4E /* ExploreWorld eSIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ExploreWorld eSIMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD01A57B2BE428F30045DE4E /* ExploreWorld_eSIMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreWorld_eSIMUITests.swift; sourceTree = "<group>"; };
+		BD01A57D2BE428F30045DE4E /* ExploreWorld_eSIMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreWorld_eSIMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD01A58D2BE429A00045DE4E /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
+		BD01A58F2BE430900045DE4E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BD156DFE2BEB47B900D81F6E /* NotificationResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationResponseModel.swift; sourceTree = "<group>"; };
+		BD156E002BEB4E9700D81F6E /* GetPaymentDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPaymentDataModel.swift; sourceTree = "<group>"; };
+		BD156E022BEB4F5700D81F6E /* GetApiVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApiVc.swift; sourceTree = "<group>"; };
+		BD7210122BE5B62100F240A3 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		BD7210142BE5B64800F240A3 /* CountryVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryVc.swift; sourceTree = "<group>"; };
+		BD73DC902BE6DBDA00D5713E /* PopCountryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopCountryCollectionCell.swift; sourceTree = "<group>"; };
+		BD73DC942BE6F84700D5713E /* CountryDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailVc.swift; sourceTree = "<group>"; };
+		BD9726B02BE555990022C3FE /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
+		BDB84FAC2BEA45D900E512BA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		CC487DE613735BE2075CC776 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIMTests.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD73628908AB94213901671 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E391C897494CFEFFAF4D7FA5 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F4AF9DC3C9456FA6E0BBFC /* Pods_ExploreWorld_eSIMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD01A5542BE428F10045DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA8E53744059C6F7480CA6F /* Pods_ExploreWorld_eSIM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01A56A2BE428F30045DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C5B1FD44A503BA754071E1 /* Pods_ExploreWorld_eSIMTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01A5742BE428F30045DE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061E4567226E23A49E96BA75 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34926372668487F0E213550E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1DB2D388F990FB72168CF8 /* Pods_ExploreWorld_eSIM.framework */,
+				E391C897494CFEFFAF4D7FA5 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */,
+				F7F4AF9DC3C9456FA6E0BBFC /* Pods_ExploreWorld_eSIMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACB754A7B5EA5974BC6D2575 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF91605FEBCD81318457501 /* Pods-ExploreWorld eSIM.debug.xcconfig */,
+				0CEDB9A79D80C0A95BA2F7DF /* Pods-ExploreWorld eSIM.release.xcconfig */,
+				CCD73628908AB94213901671 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */,
+				001696048E68DE992AB496B9 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */,
+				CC487DE613735BE2075CC776 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */,
+				07A2F98C3DF99436D2A3EF14 /* Pods-ExploreWorld eSIMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD01A54E2BE428F10045DE4E = {
+			isa = PBXGroup;
+			children = (
+				BD01A5592BE428F10045DE4E /* ExploreWorld eSIM */,
+				BD01A5702BE428F30045DE4E /* ExploreWorld eSIMTests */,
+				BD01A57A2BE428F30045DE4E /* ExploreWorld eSIMUITests */,
+				BD01A5582BE428F10045DE4E /* Products */,
+				ACB754A7B5EA5974BC6D2575 /* Pods */,
+				34926372668487F0E213550E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD01A5582BE428F10045DE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD01A5572BE428F10045DE4E /* ExploreWorld eSIM.app */,
+				BD01A56D2BE428F30045DE4E /* ExploreWorld eSIMTests.xctest */,
+				BD01A5772BE428F30045DE4E /* ExploreWorld eSIMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD01A5592BE428F10045DE4E /* ExploreWorld eSIM */ = {
+			isa = PBXGroup;
+			children = (
+				BD156DFD2BEB47AD00D81F6E /* Model */,
+				BD01A58C2BE429680045DE4E /* CustomeCode */,
+				BD01A58A2BE4294A0045DE4E /* Delegate */,
+				BD01A58B2BE4295D0045DE4E /* Controller */,
+				BD01A5602BE428F10045DE4E /* Main.storyboard */,
+				BD01A5632BE428F30045DE4E /* Assets.xcassets */,
+				BD01A5652BE428F30045DE4E /* LaunchScreen.storyboard */,
+				BD01A5682BE428F30045DE4E /* Info.plist */,
+				BDB84FAC2BEA45D900E512BA /* API.swift */,
+			);
+			path = "ExploreWorld eSIM";
+			sourceTree = "<group>";
+		};
+		BD01A5702BE428F30045DE4E /* ExploreWorld eSIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD01A5712BE428F30045DE4E /* ExploreWorld_eSIMTests.swift */,
+			);
+			path = "ExploreWorld eSIMTests";
+			sourceTree = "<group>";
+		};
+		BD01A57A2BE428F30045DE4E /* ExploreWorld eSIMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD01A57B2BE428F30045DE4E /* ExploreWorld_eSIMUITests.swift */,
+				BD01A57D2BE428F30045DE4E /* ExploreWorld_eSIMUITestsLaunchTests.swift */,
+			);
+			path = "ExploreWorld eSIMUITests";
+			sourceTree = "<group>";
+		};
+		BD01A58A2BE4294A0045DE4E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BD01A55A2BE428F10045DE4E /* AppDelegate.swift */,
+				BD01A55C2BE428F10045DE4E /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		BD01A58B2BE4295D0045DE4E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD01A58D2BE429A00045DE4E /* LoginVc.swift */,
+				BD9726B02BE555990022C3FE /* SignUpVc.swift */,
+				BD7210122BE5B62100F240A3 /* MainCell.swift */,
+				BD7210142BE5B64800F240A3 /* CountryVc.swift */,
+				BD73DC902BE6DBDA00D5713E /* PopCountryCollectionCell.swift */,
+				BD73DC942BE6F84700D5713E /* CountryDetailVc.swift */,
+				BD156E022BEB4F5700D81F6E /* GetApiVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BD01A58C2BE429680045DE4E /* CustomeCode */ = {
+			isa = PBXGroup;
+			children = (
+				BD01A58F2BE430900045DE4E /* Helper.swift */,
+			);
+			path = CustomeCode;
+			sourceTree = "<group>";
+		};
+		BD156DFD2BEB47AD00D81F6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD156DFE2BEB47B900D81F6E /* NotificationResponseModel.swift */,
+				BD156E002BEB4E9700D81F6E /* GetPaymentDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD01A5562BE428F10045DE4E /* ExploreWorld eSIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD01A5812BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIM" */;
+			buildPhases = (
+				B17B5664212438D3598A301B /* [CP] Check Pods Manifest.lock */,
+				BD01A5532BE428F10045DE4E /* Sources */,
+				BD01A5542BE428F10045DE4E /* Frameworks */,
+				BD01A5552BE428F10045DE4E /* Resources */,
+				F97E69D0ED86EB2D22EB2CC1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExploreWorld eSIM";
+			productName = "ExploreWorld eSIM";
+			productReference = BD01A5572BE428F10045DE4E /* ExploreWorld eSIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD01A56C2BE428F30045DE4E /* ExploreWorld eSIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD01A5842BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIMTests" */;
+			buildPhases = (
+				26742C462C494984D4513697 /* [CP] Check Pods Manifest.lock */,
+				BD01A5692BE428F30045DE4E /* Sources */,
+				BD01A56A2BE428F30045DE4E /* Frameworks */,
+				BD01A56B2BE428F30045DE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD01A56F2BE428F30045DE4E /* PBXTargetDependency */,
+			);
+			name = "ExploreWorld eSIMTests";
+			productName = "ExploreWorld eSIMTests";
+			productReference = BD01A56D2BE428F30045DE4E /* ExploreWorld eSIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD01A5762BE428F30045DE4E /* ExploreWorld eSIMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD01A5872BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIMUITests" */;
+			buildPhases = (
+				69D4219528199BDC8F735A7E /* [CP] Check Pods Manifest.lock */,
+				BD01A5732BE428F30045DE4E /* Sources */,
+				BD01A5742BE428F30045DE4E /* Frameworks */,
+				BD01A5752BE428F30045DE4E /* Resources */,
+				A94834A1CEDCC760A0C867DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD01A5792BE428F30045DE4E /* PBXTargetDependency */,
+			);
+			name = "ExploreWorld eSIMUITests";
+			productName = "ExploreWorld eSIMUITests";
+			productReference = BD01A5772BE428F30045DE4E /* ExploreWorld eSIMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD01A54F2BE428F10045DE4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BD01A5562BE428F10045DE4E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BD01A56C2BE428F30045DE4E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BD01A5562BE428F10045DE4E;
+					};
+					BD01A5762BE428F30045DE4E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BD01A5562BE428F10045DE4E;
+					};
+				};
+			};
+			buildConfigurationList = BD01A5522BE428F10045DE4E /* Build configuration list for PBXProject "ExploreWorld eSIM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD01A54E2BE428F10045DE4E;
+			productRefGroup = BD01A5582BE428F10045DE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD01A5562BE428F10045DE4E /* ExploreWorld eSIM */,
+				BD01A56C2BE428F30045DE4E /* ExploreWorld eSIMTests */,
+				BD01A5762BE428F30045DE4E /* ExploreWorld eSIMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD01A5552BE428F10045DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD01A5672BE428F30045DE4E /* LaunchScreen.storyboard in Resources */,
+				BD01A5642BE428F30045DE4E /* Assets.xcassets in Resources */,
+				BD01A5622BE428F10045DE4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01A56B2BE428F30045DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01A5752BE428F30045DE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26742C462C494984D4513697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExploreWorld eSIMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69D4219528199BDC8F735A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94834A1CEDCC760A0C867DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17B5664212438D3598A301B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExploreWorld eSIM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97E69D0ED86EB2D22EB2CC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD01A5532BE428F10045DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD156DFF2BEB47B900D81F6E /* NotificationResponseModel.swift in Sources */,
+				BD73DC912BE6DBDA00D5713E /* PopCountryCollectionCell.swift in Sources */,
+				BD7210152BE5B64800F240A3 /* CountryVc.swift in Sources */,
+				BD01A55B2BE428F10045DE4E /* AppDelegate.swift in Sources */,
+				BD156E032BEB4F5700D81F6E /* GetApiVc.swift in Sources */,
+				BD01A58E2BE429A00045DE4E /* LoginVc.swift in Sources */,
+				BDB84FAD2BEA45D900E512BA /* API.swift in Sources */,
+				BD7210132BE5B62100F240A3 /* MainCell.swift in Sources */,
+				BD01A55D2BE428F10045DE4E /* SceneDelegate.swift in Sources */,
+				BD73DC952BE6F84700D5713E /* CountryDetailVc.swift in Sources */,
+				BD156E012BEB4E9700D81F6E /* GetPaymentDataModel.swift in Sources */,
+				BD9726B12BE555990022C3FE /* SignUpVc.swift in Sources */,
+				BD01A5902BE430900045DE4E /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01A5692BE428F30045DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD01A5722BE428F30045DE4E /* ExploreWorld_eSIMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01A5732BE428F30045DE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD01A57C2BE428F30045DE4E /* ExploreWorld_eSIMUITests.swift in Sources */,
+				BD01A57E2BE428F30045DE4E /* ExploreWorld_eSIMUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD01A56F2BE428F30045DE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD01A5562BE428F10045DE4E /* ExploreWorld eSIM */;
+			targetProxy = BD01A56E2BE428F30045DE4E /* PBXContainerItemProxy */;
+		};
+		BD01A5792BE428F30045DE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD01A5562BE428F10045DE4E /* ExploreWorld eSIM */;
+			targetProxy = BD01A5782BE428F30045DE4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD01A5602BE428F10045DE4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD01A5612BE428F10045DE4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD01A5652BE428F30045DE4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD01A5662BE428F30045DE4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD01A57F2BE428F30045DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD01A5802BE428F30045DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD01A5822BE428F30045DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF91605FEBCD81318457501 /* Pods-ExploreWorld eSIM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ExploreWorld eSIM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibes.app.ExploreWorld-eSIM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD01A5832BE428F30045DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CEDB9A79D80C0A95BA2F7DF /* Pods-ExploreWorld eSIM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ExploreWorld eSIM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibes.app.ExploreWorld-eSIM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD01A5852BE428F30045DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC487DE613735BE2075CC776 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibes.app.ExploreWorld-eSIMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExploreWorld eSIM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExploreWorld eSIM";
+			};
+			name = Debug;
+		};
+		BD01A5862BE428F30045DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07A2F98C3DF99436D2A3EF14 /* Pods-ExploreWorld eSIMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibes.app.ExploreWorld-eSIMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExploreWorld eSIM.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExploreWorld eSIM";
+			};
+			name = Release;
+		};
+		BD01A5882BE428F30045DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD73628908AB94213901671 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibes.app.ExploreWorld-eSIMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ExploreWorld eSIM";
+			};
+			name = Debug;
+		};
+		BD01A5892BE428F30045DE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001696048E68DE992AB496B9 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vibes.app.ExploreWorld-eSIMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ExploreWorld eSIM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD01A5522BE428F10045DE4E /* Build configuration list for PBXProject "ExploreWorld eSIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD01A57F2BE428F30045DE4E /* Debug */,
+				BD01A5802BE428F30045DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD01A5812BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD01A5822BE428F30045DE4E /* Debug */,
+				BD01A5832BE428F30045DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD01A5842BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD01A5852BE428F30045DE4E /* Debug */,
+				BD01A5862BE428F30045DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD01A5872BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD01A5882BE428F30045DE4E /* Debug */,
+				BD01A5892BE428F30045DE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD01A54F2BE428F10045DE4E /* Project object */;
+}

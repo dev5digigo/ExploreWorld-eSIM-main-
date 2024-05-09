@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D5F6E182-6D5E-4457-800A-A9F5CAF244D4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48DC00D4-B94F-4B04-8EFA-AAC92C1ADBD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExploreWorld eSIM/Controller/LoginVc.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "LoginVc"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E823160-83D9-45DA-B953-6B5A387C5502"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExploreWorld eSIM/Controller/MainCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MainCell1"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7E823160-83D9-45DA-B953-6B5A387C5502 - 5d45cb3affa9a430"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExploreWorld_eSIM.MainCell.imgCountryIc.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "ExploreWorld eSIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dreamworld/Desktop/ios%20project/ExploreWorld%20eSIM/ExploreWorld%20eSIM/Controller/MainCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  uuid = "7E823160-83D9-45DA-B953-6B5A387C5502 - a3e754bf22e3900c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExploreWorld_eSIM.MainCell.imgCountryIc.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "ExploreWorld eSIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dreamworld/Desktop/ios%20project/ExploreWorld%20eSIM/ExploreWorld%20eSIM/Controller/MainCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "7E823160-83D9-45DA-B953-6B5A387C5502 - 41ba1e82ebe2c965"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExploreWorld_eSIM.MainCell.imgCountryIc.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "ExploreWorld eSIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dreamworld/Desktop/ios%20project/ExploreWorld%20eSIM/ExploreWorld%20eSIM/Controller/MainCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "7E823160-83D9-45DA-B953-6B5A387C5502 - 8a93119c633c53ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExploreWorld_eSIM.MainCell.imgCountryIc.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ExploreWorld eSIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dreamworld/Desktop/ios%20project/ExploreWorld%20eSIM/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "7E823160-83D9-45DA-B953-6B5A387C5502 - 5cf90924a9dfe6d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExploreWorld_eSIM.MainCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; ExploreWorld_eSIM.MainCell"
+                  moduleName = "ExploreWorld eSIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dreamworld/Desktop/ios%20project/ExploreWorld%20eSIM/ExploreWorld%20eSIM/Controller/MainCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "223">
+               </Location>
+               <Location
+                  uuid = "7E823160-83D9-45DA-B953-6B5A387C5502 - 60e794d525db9274"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExploreWorld_eSIM.MainCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ExploreWorld_eSIM.MainCell&gt;"
+                  moduleName = "ExploreWorld eSIM"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dreamworld/Desktop/ios%20project/ExploreWorld%20eSIM/ExploreWorld%20eSIM/Controller/MainCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
